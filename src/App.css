@@ -1,0 +1,33 @@
+body{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1000px;
+  padding: 1em;
+}
+.subtitle{
+  color: gray;
+  text-align: center;
+
+}
+h1, h3{
+  text-align: center;
+}
+section{
+  text-align: justify;
+}
+
+.cards, .tickets-div{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 2em;
+}
+.ticket-div{
+  max-width: 30.7%;
+  background-color: rgb(240, 236, 236);
+  padding: 0.5em;
+
+}
+.ticket-image{
+  max-width: 100%;
+}
