@@ -3,7 +3,8 @@ import ImageList from './components/ImageList';
 import MainHeading from './components/MainHeading';
 import MainText from './components/MainText';
 import SubTitle from './components/Subtitle';
-import TicketCard from './components/TicketCard';
+// import TicketCard from './components/TicketCard';
+import TravelList from './components/TravelList';
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
       <SubTitle />
       <MainText />
       <ImageList />
-      <TicketCard />
+      {/* <TicketCard /> */}
+      <TravelList/>
     </div>
   );
 }
